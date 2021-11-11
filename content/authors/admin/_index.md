@@ -68,4 +68,10 @@ I am a 4th-year undergraduate from University of Science and Technology of China
 
 I'm a Rustacean and a fan of OOP and FP programming paradigm.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
+
+{{< icon name="certificate" pack="fas" >}} My Certifications:
+
+* [Certification of GPA Ranking](/uploads/gparank.pdf)
+* [Certification of Current Studentship](/uploads/ustc.pdf)
+* [Scores of Courses](/uploads/courses.pdf)
