@@ -11,7 +11,7 @@ role: A 4th-year Undergraduate
 # Organizations/Affiliations to show in About widget
 organizations:
 - name: University of Science and Technology of China
-  url: https://www.ustc.edu.cn
+  url: http://en.ustc.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include programming language and its runtime design.
