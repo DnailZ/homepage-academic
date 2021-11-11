@@ -30,7 +30,7 @@ url_video: ""
 slides: example
 ---
 
-Graph processing is a common task that has be researched for many years. You can model many real-world structure in graphs: social network, web documents ... In most of times, graphs are stored as sparse matrices. But in many real world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recently research have shown that single machine disk-based method outperform many distributed ones in many cases. But these disk-based graph processing system still have a lots of IO overhead. To address this problem, we proposed a new graph task ordering algorithm which can reduce almost 50% data loading from disk.
+Graph processing is a common task that has been researched for many years. You can model many real-world structure in graphs: social network, web documents ... In most of times, graphs are stored as sparse matrices. But in many real world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recently research have shown that single machine disk-based method outperform many distributed ones in many cases. But these disk-based graph processing system still have a lots of IO overhead. To address this problem, we proposed a new graph task ordering algorithm which can reduce almost 50% data loading from disk.
 
 
 The process of this algorithm is shown in this [slides](/homepage-academic/uploads/Ordering.pdf).

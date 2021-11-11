@@ -66,7 +66,6 @@ highlight_name: true
 
 I am a 4th-year undergraduate from University of Science and Technology of China. My research interests include programming language and its runtime design.
 
-I'm a Rustacean and a fan of OOP and FP programming paradigm.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
 
