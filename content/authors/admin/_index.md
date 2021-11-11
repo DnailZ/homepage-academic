@@ -72,6 +72,6 @@ I'm a Rustacean and a fan of OOP and FP programming paradigm.
 
 {{< icon name="certificate" pack="fas" >}} My Certifications:
 
-* [Certification of GPA Ranking](/uploads/gparank.pdf)
-* [Certification of Current Studentship](/uploads/ustc.pdf)
-* [Scores of Courses](/uploads/courses.pdf)
+* [Certification of GPA Ranking](/homepage-academic/uploads/gparank.pdf)
+* [Certification of Current Studentship](/homepage-academic/uploads/ustc.pdf)
+* [Scores of Courses](/homepage-academic/uploads/courses.pdf)

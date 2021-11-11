@@ -34,4 +34,4 @@ The serverless computing model leverages high-level languages, such as JavaScrip
 
 We found that modern serverless platforms can not fully leverage language runtime optimizations: Modern serverless platforms can not share JIT-compiled code between different instances. From the picture, we noticed original serverless function can be accelerated by JIT code and profile sharing. 
 
-Working in progress: I'm trying to implement this on HotspotVM. [Implementation Report](/uploads/JITRelocation.pdf)
+Working in progress: I'm trying to implement this on HotspotVM. [Implementation Report](/homepage-academic/uploads/JITRelocation.pdf)
