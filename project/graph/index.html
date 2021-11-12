@@ -8,7 +8,7 @@
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <meta name=author content="Yuantian Ding">
-<meta name=description content="This is a traditional work in graph processing system. We trying to reordering tasks to reduce IO overhead in disk-based graph processing system.">
+<meta name=description content="This is a traditional work in graph processing systems. We are trying to reorder tasks to reduce IO overhead in a disk-based graph processing system.">
 <link rel=alternate hreflang=en-us href=https://dnailz.github.io/homepage-academic/project/graph/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/homepage-academic/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
@@ -23,13 +23,13 @@
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Yuantian Ding">
 <meta property="og:url" content="https://dnailz.github.io/homepage-academic/project/graph/">
-<meta property="og:title" content="Processing Order Scheduling in Disk-based Graph Processing | Yuantian Ding">
-<meta property="og:description" content="This is a traditional work in graph processing system. We trying to reordering tasks to reduce IO overhead in disk-based graph processing system."><meta property="og:image" content="https://dnailz.github.io/homepage-academic/project/graph/featured.png">
+<meta property="og:title" content="Order Scheduling in Disk-based Graph Processing | Yuantian Ding">
+<meta property="og:description" content="This is a traditional work in graph processing systems. We are trying to reorder tasks to reduce IO overhead in a disk-based graph processing system."><meta property="og:image" content="https://dnailz.github.io/homepage-academic/project/graph/featured.png">
 <meta property="twitter:image" content="https://dnailz.github.io/homepage-academic/project/graph/featured.png"><meta property="og:locale" content="en-us">
 <meta property="article:published_time" content="2016-04-27T00:00:00+00:00">
 <meta property="article:modified_time" content="2016-04-27T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://dnailz.github.io/homepage-academic/project/graph/"},"headline":"Processing Order Scheduling in Disk-based Graph Processing","image":["https://dnailz.github.io/homepage-academic/project/graph/featured.png"],"datePublished":"2016-04-27T00:00:00Z","dateModified":"2016-04-27T00:00:00Z","author":{"@type":"Person","name":"Yuantian Ding"},"publisher":{"@type":"Organization","name":"Yuantian Ding","logo":{"@type":"ImageObject","url":"https://dnailz.github.io/homepage-academic/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"This is a traditional work in graph processing system. We trying to reordering tasks to reduce IO overhead in disk-based graph processing system."}</script>
-<title>Processing Order Scheduling in Disk-based Graph Processing | Yuantian Ding</title>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://dnailz.github.io/homepage-academic/project/graph/"},"headline":"Order Scheduling in Disk-based Graph Processing","image":["https://dnailz.github.io/homepage-academic/project/graph/featured.png"],"datePublished":"2016-04-27T00:00:00Z","dateModified":"2016-04-27T00:00:00Z","author":{"@type":"Person","name":"Yuantian Ding"},"publisher":{"@type":"Organization","name":"Yuantian Ding","logo":{"@type":"ImageObject","url":"https://dnailz.github.io/homepage-academic/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"}},"description":"This is a traditional work in graph processing systems. We are trying to reorder tasks to reduce IO overhead in a disk-based graph processing system."}</script>
+<title>Order Scheduling in Disk-based Graph Processing | Yuantian Ding</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=e4ff07a0f991da960ad4312c36a3eb9a>
 <script src=/homepage-academic/js/wowchemy-init.min.2da3b1fa37e894630bf6de39b1b694b3.js></script>
@@ -115,7 +115,7 @@
 <div class=page-body>
 <article class="article article-project">
 <div class="article-container pt-3">
-<h1>Processing Order Scheduling in Disk-based Graph Processing</h1>
+<h1>Order Scheduling in Disk-based Graph Processing</h1>
 <div class=article-metadata>
 <span class=article-date>
 Apr 27, 2016
@@ -131,7 +131,7 @@ Apr 27, 2016
 </div>
 <div class=article-container>
 <div class=article-style>
-<p>Graph processing is a common task that has been researched for many years. You can model many real-world structure in graphs: social network, web documents &mldr; In most of times, graphs are stored as sparse matrices. But in many real world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recently research have shown that single machine disk-based method outperform many distributed ones in many cases. But these disk-based graph processing system still have a lots of IO overhead. To address this problem, we proposed a new graph task ordering algorithm which can reduce almost 50% data loading from disk.</p>
+<p>Graph processing is a common task that has been researched for many years. You can model many real-world structures in graphs: social networks, web documents … In most of the time, graphs are stored as sparse matrices. But in many real-world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recent research has shown that the single machine disk-based method outperforms many distributed ones in many cases. But these disk-based graph processing systems still have a lot of IO overhead. To address this problem, we proposed a new graph task ordering algorithm that can reduce almost 50% of data loading from the disk.</p>
 <p>The process of this algorithm is shown in this <a href=/homepage-academic/uploads/Ordering.pdf>slides</a>.</p>
 </div>
 <div class=article-tags>
@@ -140,32 +140,32 @@ Apr 27, 2016
 <div class=share-box>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://dnailz.github.io/homepage-academic/project/graph/&text=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
+<a href="https://twitter.com/intent/tweet?url=https://dnailz.github.io/homepage-academic/project/graph/&text=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://dnailz.github.io/homepage-academic/project/graph/&t=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://dnailz.github.io/homepage-academic/project/graph/&t=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing&body=https://dnailz.github.io/homepage-academic/project/graph/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
+<a href="mailto:?subject=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing&body=https://dnailz.github.io/homepage-academic/project/graph/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://dnailz.github.io/homepage-academic/project/graph/&title=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
+<a href="https://www.linkedin.com/shareArticle?url=https://dnailz.github.io/homepage-academic/project/graph/&title=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing%20https://dnailz.github.io/homepage-academic/project/graph/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
+<a href="whatsapp://send?text=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing%20https://dnailz.github.io/homepage-academic/project/graph/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://dnailz.github.io/homepage-academic/project/graph/&title=Processing%20Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://dnailz.github.io/homepage-academic/project/graph/&title=Order%20Scheduling%20in%20Disk-based%20Graph%20Processing" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
