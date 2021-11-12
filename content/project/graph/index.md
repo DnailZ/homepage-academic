@@ -1,6 +1,6 @@
 ---
-title: Processing Order Scheduling in Disk-based Graph Processing
-summary: This is a traditional work in graph processing system. We trying to reordering tasks to reduce IO overhead in disk-based graph processing system.
+title: Order Scheduling in Disk-based Graph Processing
+summary: This is a traditional work in graph processing systems. We are trying to reorder tasks to reduce IO overhead in a disk-based graph processing system.
 tags:
 - PL
 date: "2016-04-27T00:00:00Z"
@@ -30,7 +30,7 @@ url_video: ""
 slides: example
 ---
 
-Graph processing is a common task that has been researched for many years. You can model many real-world structure in graphs: social network, web documents ... In most of times, graphs are stored as sparse matrices. But in many real world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recently research have shown that single machine disk-based method outperform many distributed ones in many cases. But these disk-based graph processing system still have a lots of IO overhead. To address this problem, we proposed a new graph task ordering algorithm which can reduce almost 50% data loading from disk.
+Graph processing is a common task that has been researched for many years. You can model many real-world structures in graphs: social networks, web documents … In most of the time, graphs are stored as sparse matrices. But in many real-world problems, sparse matrices are sometimes too large to fit into memory. We may use distributed strategy to resolve this problem. However, recent research has shown that the single machine disk-based method outperforms many distributed ones in many cases. But these disk-based graph processing systems still have a lot of IO overhead. To address this problem, we proposed a new graph task ordering algorithm that can reduce almost 50% of data loading from the disk.
 
 
 The process of this algorithm is shown in this [slides](/homepage-academic/uploads/Ordering.pdf).
