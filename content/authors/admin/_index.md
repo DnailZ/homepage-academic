@@ -73,4 +73,4 @@ I am a 4th-year undergraduate from University of Science and Technology of China
 
 * [Certification of GPA Ranking](/homepage-academic/uploads/gparank.pdf)
 * [Certification of Current Studentship](/homepage-academic/uploads/ustc.pdf)
-* [Scores of Courses](/homepage-academic/uploads/courses.pdf)
+* [Courses](/homepage-academic/uploads/courses.pdf)
