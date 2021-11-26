@@ -1,5 +1,5 @@
 ---
-title: Leverage JIT Code and Profile Sharing for serverless application 
+title: JFass - A New Serverless Platform with Customized JVM Runtime
 summary: Modern serverless platform profiles and compiles JIT code in multiple nodes. In this work, we are trying to share runtime profiles and JIT-compiled code in different nodes to accelerate serverless function execution. (click for more details)
 tags:
 - PL
@@ -30,8 +30,8 @@ url_video: ""
 slides: example
 ---
 
-The serverless computing model leverages high-level languages, such as JavaScript and Java, to raise the level of abstraction for cloud programming. However, today’s design of serverless computing platforms based on stateless short-lived functions leads to missed opportunities for modern runtimes to optimize serverless functions through techniques such as JIT compilation and code profiling.
+Faas (Function as a service) is one form of serverless computing where users only need to deploy function on the cloud and the cloud service vendor will handle all the hardware resources the function needs. The vendor will provide runtimes for these functions which are driven by events. However, Faas is tailored for short-lived functions which makes traditional runtime optimizations such as JIT compilation fail to enhance performance. We want to design a new framework to bridge the gap between modern language runtime and serverless platforms.
 
-We found that modern serverless platforms can not fully leverage language runtime optimizations: Modern serverless platforms can not share JIT-compiled code between different instances. From the picture, we noticed original serverless function can be accelerated by JIT code and profile sharing. 
+In this work, we aim at building a new serverless platform tailored for JVM runtime with profile information sharing and native code sharing across nodes. We also hope to use hardware tracing technology to help reduce profiling overhead from interpreter stage.
 
 Working in progress: I'm trying to implement this on HotspotVM. [Draft Paper](/homepage-academic/uploads/draft.pdf) [Implementation Report](/homepage-academic/uploads/JITRelocation.pdf)
