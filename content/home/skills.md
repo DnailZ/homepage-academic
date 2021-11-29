@@ -34,7 +34,7 @@ feature:
   name: Scala
 - description: 60%
   icon: haskell
-  icon_pack: fab
+  icon_pack: custom
   name: Haskell
 
 # Uncomment to use emoji icons.
