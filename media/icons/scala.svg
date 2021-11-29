@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="0.62em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 416"><defs><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="ssvg-id-scalaa"><stop stop-color="#4F4F4F" offset="0%"/><stop offset="100%"/></linearGradient><linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="ssvg-id-scalab"><stop stop-color="#1565c0" offset="0%"/><stop stop-color="red" offset="100%"/></linearGradient></defs><path d="M0 288v-32c0-5.394 116.377-14.428 192.2-32c36.628 8.49 63.8 18.969 63.8 32v32c0 13.024-27.172 23.51-63.8 32C116.376 302.425 0 293.39 0 288" fill="url(#ssvg-id-scalaa)" transform="matrix(1 0 0 -1 0 544)"/><path d="M0 160v-32c0-5.394 116.377-14.428 192.2-32c36.628 8.49 63.8 18.969 63.8 32v32c0 13.024-27.172 23.51-63.8 32C116.376 174.425 0 165.39 0 160" fill="url(#ssvg-id-scalaa)" transform="matrix(1 0 0 -1 0 288)"/><path d="M0 224v-96c0 8 256 24 256 64v96c0-40-256-56-256-64" fill="url(#ssvg-id-scalab)" transform="matrix(1 0 0 -1 0 416)"/><path d="M0 96V0c0 8 256 24 256 64v96c0-40-256-56-256-64" fill="url(#ssvg-id-scalab)" transform="matrix(1 0 0 -1 0 160)"/><path d="M0 352v-96c0 8 256 24 256 64v96c0-40-256-56-256-64" fill="url(#ssvg-id-scalab)" transform="matrix(1 0 0 -1 0 672)"/></svg>
+<svg width="256" height="416" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" role="img" aria-hidden="true">
+ <defs>
+  <linearGradient id="svg_4" y2="NaN" x2="100%" y1="NaN" x1="0%">
+   <stop offset="0%" stop-color="#4F4F4F"/>
+   <stop offset="100%"/>
+  </linearGradient>
+  <linearGradient id="svg_5" y2="NaN" x2="100%" y1="NaN" x1="0%">
+   <stop offset="0%" stop-color="#4F4F4F"/>
+   <stop offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_6" fill="url(#svg_5)" d="m0,256l0,32c0,5.39398 116.377,14.42798 192.2,32c36.62801,-8.49002 63.8,-18.96899 63.8,-32l0,-32c0,-13.02399 -27.172,-23.51001 -63.8,-32c-75.824,17.57501 -192.2,26.60999 -192.2,32"/>
+  <path id="svg_7" fill="url(#svg_4)" d="m0,128l0,32c0,5.394 116.377,14.42801 192.2,32c36.62801,-8.48999 63.8,-18.96899 63.8,-32l0,-32c0,-13.024 -27.172,-23.50999 -63.8,-32c-75.824,17.575 -192.2,26.61 -192.2,32"/>
+  <path id="svg_8" fill="#1565c0" d="m-2,192l0,96c0,-8 256,-24 256,-64l0,-96c0,40 -256,56 -256,64"/>
+  <path id="svg_9" fill="#1565c0" d="m-1,64l0,96c0,-8 256,-24 256,-64l0,-96c0,40 -256,56 -256,64"/>
+  <path id="svg_10" fill="#1565c0" d="m0,321l0,96c0,-8 256,-24 256,-64l0,-96c0,40 -256,56 -256,64"/>
+ </g>
+</svg>
