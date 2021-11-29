@@ -64,7 +64,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a 4th-year undergraduate from University of Science and Technology of China. My research interests include programming language and its runtime design.
+I am a 4th-year undergraduate from University of Science and Technology of China. My research interests include programming language and its implementation.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}CV{{< /staticref >}}.
@@ -75,7 +75,7 @@ I am a 4th-year undergraduate from University of Science and Technology of China
 * [Certification of Current Studentship](/homepage-academic/uploads/ustc.pdf)
 * [Courses](/homepage-academic/uploads/courses.pdf)
 
-{{< icon name="gear" pack="fas" >}} Small Tools:
+{{< icon name="toolbox" pack="fas" >}} Small Tools:
 
 * [Typell](https://github.com/DnailZ/Typell) : An LL(1) Parser Generator based on Type System (Haskell)
 * [enum-lexer](https://github.com/DnailZ/enum-lexer) : Another Lexer Generator based on Rust Proc-Marco (Rust)
