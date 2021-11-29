@@ -33,7 +33,7 @@ feature:
   icon_pack: custom
   name: Scala
 - description: 60%
-  icon: lambda
+  icon: haskell
   icon_pack: fab
   name: Haskell
 
