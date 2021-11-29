@@ -16,18 +16,26 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 80%
+- description: 90%
   icon: copyright
   icon_pack: fas
   name: C/C++
-- description: 80%
+- description: 90%
   icon: rust
   icon_pack: fab
   name: Rust
-- description: 70%
+- description: 80%
   icon: java
   icon_pack: fab
   name: Java & JVM
+- description: 70%
+  icon: scala
+  icon_pack: custom
+  name: Scala
+- description: 60%
+  icon: lambda
+  icon_pack: fab
+  name: Haskell
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
