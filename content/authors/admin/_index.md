@@ -14,7 +14,7 @@ organizations:
   url: http://en.ustc.edu.cn
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include programming language and its runtime design.
+bio: My research interests include programming language and its implementation.
 
 # Interests to show in About widget
 interests:
