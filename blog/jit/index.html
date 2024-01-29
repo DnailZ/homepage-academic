@@ -111,69 +111,31 @@
 
     
     <main class="grow">
-<div class="prose dark:prose-invert max-w-none">
-  <h1 class="standard ">
-    Tags</h1>
-  
-  <div class="">
-    <div
-      class="rounded hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 active"
-    >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/tags/pl/"
-        > <span class="test-sm text-gray-600">January 6, 2022</span> <h2 class="accordion m-0">PL </h2></a
-      >
-    </div>
-    <div
-      id="panel-item-0"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark "
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm"></p>
-<p class="mt-1 mb-0 text-sm">January 6, 2022</p>
- 
-
-
-
+<div class="prose prose-stone dark:prose-invert max-w-none text-lg">
+<div class="mb-3">
+  <h1 class="top-h1" style="font-size: 3em">JFass - A New Serverless Platform with Customized JVM Runtime</h1>
+</div>
+<div class="content">
+  <p><img src="/images/jit.png" alt=""></p>
+<p>Faas (Function as a service) is one form of serverless computing where users only need to deploy function on the cloud and the cloud service vendor will handle all the hardware resources the function needs. The vendor will provide runtimes for these functions which are driven by events. However, Faas is tailored for short-lived functions which makes traditional runtime optimizations such as JIT compilation fail to enhance performance. We want to design a new framework to bridge the gap between modern language runtime and serverless platforms.</p>
+<p>In this work, we aim at building a new serverless platform tailored for JVM runtime with profile information sharing and native code sharing across nodes. We also hope to use hardware tracing technology to help reduce profiling overhead from interpreter stage.</p>
+<p>Working in progress: I&rsquo;m trying to implement this on HotspotVM. <a href="/homepage-academic/uploads/draft.pdf">Draft Paper</a> <a href="/homepage-academic/uploads/JITRelocation.pdf">Implementation Report</a></p>
 
 </div>
-    </div>
-  </div>
-  
-  <div class="">
-    <div
-      class="rounded hover:bg-gray-400 dark:hover:bg-darker flex flex-row items-center justify-start accordion mt-0 mb-0 p-2 "
-    >
-      <i
-        onclick="expandAccordion(this)"
-        class="cursor-pointer chevron p-2 mr-4 fas fa-chevron-right rounded text-blue-500 dark:text-gray-400 hover:bg-gray-300 dark:hover:bg-gray-700"
-      ></i>
-      <a href="/tags/system/"
-        > <span class="test-sm text-gray-600">January 6, 2022</span> <h2 class="accordion m-0">System </h2></a
-      >
-    </div>
-    <div
-      id="panel-item-1"
-      class="panel metadata-panel overflow-hidden bg-gray-200 dark:bg-dark "
-    >
-      <div class="metadata p-2"><p class="mt-0 mb-0 text-sm"></p>
-<p class="mt-1 mb-0 text-sm">January 6, 2022</p>
- 
-
-
-
-
 </div>
-    </div>
-  </div>
-  
+<div class="flex flex-row justify-around my-2">
+  <h3 class="mb-1 mt-1 text-left mr-4">
+    
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-left"></i>
+    
+  </h3>
+  <h3 class="mb-1 mt-1 text-left ml-4">
+    
+    <i class="text-gray-300 dark:text-gray-600 fas fa-chevron-circle-right"></i>
+    
+  </h3>
 </div>
-<script src="/js/accordion.js"></script>
-<div class="mt-4 d-flex justify-content-center">
-  
-</div>
+
 
     </main>
     

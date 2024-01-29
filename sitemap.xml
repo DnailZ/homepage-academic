@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://dnailz.github.io/homepage-academic/project/jit/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/project/graph/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/tag/pl/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/project/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/tags/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/</loc><lastmod>2016-04-27T00:00:00+00:00</lastmod></url><url><loc>https://dnailz.github.io/homepage-academic/admin/</loc></url><url><loc/></url><url><loc>https://dnailz.github.io/homepage-academic/categories/</loc></url><url><loc>https://dnailz.github.io/homepage-academic/publication_types/</loc></url><url><loc/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/jit/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/pl/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/system/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2022-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url>
+</urlset>
